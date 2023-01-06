@@ -43,7 +43,7 @@
 <main class="max-w-5xl mx-auto p-4 min-h-screen">
   <header class="flex gap-6 items-center mb-6">
     <a href="/">
-      <img src={Logo} alt={import.meta.env._NAME} class="h-6" />
+      <img src={Logo} alt={import.meta.env._NAME} class="h-24" />
     </a>
     <nav class="hidden md:flex gap-3 items-center">
       {#each featuredCategories as category}
